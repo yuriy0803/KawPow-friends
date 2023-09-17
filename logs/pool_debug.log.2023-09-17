@@ -1,0 +1,141 @@
+[2023-09-17T12:45:09.868Z] [debug] [ravencoin] [ShareProcessor [:0]] : Share processing setup with redis (127.0.0.1:6379)
+[2023-09-17T12:45:09.872Z] [info] [ravencoin] [Pool [:1]] : Could not start pool, error with init batch RPC call: {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:45:10.127Z] [debug] [ravencoin] [ShareProcessor [:1]] : Share processing setup with redis (127.0.0.1:6379)
+[2023-09-17T12:45:10.132Z] [info] [ravencoin] [Pool [:2]] : Could not start pool, error with init batch RPC call: {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:45:10.393Z] [debug] [ravencoin] [ShareProcessor [:2]] : Share processing setup with redis (127.0.0.1:6379)
+[2023-09-17T12:45:10.396Z] [info] [ravencoin] [Pool [:3]] : Could not start pool, error with init batch RPC call: {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:45:10.638Z] [debug] [ravencoin] [ShareProcessor [:3]] : Share processing setup with redis (127.0.0.1:6379)
+[2023-09-17T12:45:10.641Z] [info] [ravencoin] [Pool [:4]] : Could not start pool, error with init batch RPC call: {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:45:10.664Z] [debug] [system] [init.js] : Master
+[2023-09-17T12:45:10.881Z] [debug] [ravencoin] [ShareProcessor [:4]] : Share processing setup with redis (127.0.0.1:6379)
+[2023-09-17T12:45:10.884Z] [info] [ravencoin] [Pool [:5]] : Could not start pool, error with init batch RPC call: {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:45:11.126Z] [debug] [ravencoin] [ShareProcessor [:5]] : Share processing setup with redis (127.0.0.1:6379)
+[2023-09-17T12:45:11.129Z] [info] [ravencoin] [Pool [:6]] : Could not start pool, error with init batch RPC call: {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:45:11.600Z] [info] [system] [PaymentProcessing] : PP> Payment processor worker started
+[2023-09-17T12:45:11.603Z] [info] [system] [PaymentProcessing] : PP> Enabled ravencoin for payment processing
+[2023-09-17T12:45:11.608Z] [debug] [ravencoin] [PaymentProcessor] : PP> FEE % = RAVENCOIN
+[2023-09-17T12:45:11.610Z] [debug] [ravencoin] [PaymentProcessor] : PP> minPayment = RAVENCOIN
+[2023-09-17T12:45:11.611Z] [debug] [ravencoin] [PaymentProcessor] : PP> paymentInterval = RAVENCOIN
+[2023-09-17T12:45:11.611Z] [debug] [ravencoin] [PaymentProcessor] : PP> Validating address and balance
+[2023-09-17T12:45:11.600Z] [info] [system] [Website] : Starting Website module
+[2023-09-17T12:45:11.616Z] [info] [system] [Website] : WEBSITE> Attempting to start Website on 0.0.0.0:5001
+[2023-09-17T12:45:11.603Z] [info] [system] [Stats] : Starting Stats Module...
+[2023-09-17T12:45:11.603Z] [debug] [system] [Stats] : Initializing Stats Redis...
+[2023-09-17T12:45:11.606Z] [debug] [system] [Stats] : Initializing Stats History...
+[2023-09-17T12:45:11.626Z] [debug] [system] [PaymentProcessing] : PP> Payment processor initialized. Setup results false
+[2023-09-17T12:45:11.626Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with payment processing daemon {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:45:11.626Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> There was error during payment processor setup true
+[2023-09-17T12:45:11.636Z] [info] [system] [Website] : WEBSITE> Website started on 0.0.0.0:5001
+[2023-09-17T12:46:09.666Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:47:07.724Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:47:36.825Z] [debug] [ravencoin] [ShareProcessor [:0]] : Share processing setup with redis (127.0.0.1:6379)
+[2023-09-17T12:47:36.828Z] [info] [ravencoin] [Pool [:1]] : Could not start pool, error with init batch RPC call: {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:47:37.097Z] [debug] [ravencoin] [ShareProcessor [:1]] : Share processing setup with redis (127.0.0.1:6379)
+[2023-09-17T12:47:37.099Z] [info] [ravencoin] [Pool [:2]] : Could not start pool, error with init batch RPC call: {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:47:37.369Z] [debug] [ravencoin] [ShareProcessor [:2]] : Share processing setup with redis (127.0.0.1:6379)
+[2023-09-17T12:47:37.372Z] [info] [ravencoin] [Pool [:3]] : Could not start pool, error with init batch RPC call: {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:47:37.607Z] [debug] [ravencoin] [ShareProcessor [:3]] : Share processing setup with redis (127.0.0.1:6379)
+[2023-09-17T12:47:37.611Z] [info] [ravencoin] [Pool [:4]] : Could not start pool, error with init batch RPC call: {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:47:37.619Z] [debug] [system] [init.js] : Master
+[2023-09-17T12:47:37.861Z] [debug] [ravencoin] [ShareProcessor [:4]] : Share processing setup with redis (127.0.0.1:6379)
+[2023-09-17T12:47:37.864Z] [info] [ravencoin] [Pool [:5]] : Could not start pool, error with init batch RPC call: {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:47:38.108Z] [debug] [ravencoin] [ShareProcessor [:5]] : Share processing setup with redis (127.0.0.1:6379)
+[2023-09-17T12:47:38.111Z] [info] [ravencoin] [Pool [:6]] : Could not start pool, error with init batch RPC call: {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:47:38.556Z] [info] [system] [PaymentProcessing] : PP> Payment processor worker started
+[2023-09-17T12:47:38.559Z] [info] [system] [PaymentProcessing] : PP> Enabled ravencoin for payment processing
+[2023-09-17T12:47:38.565Z] [debug] [ravencoin] [PaymentProcessor] : PP> FEE % = RAVENCOIN
+[2023-09-17T12:47:38.567Z] [debug] [ravencoin] [PaymentProcessor] : PP> minPayment = RAVENCOIN
+[2023-09-17T12:47:38.568Z] [debug] [ravencoin] [PaymentProcessor] : PP> paymentInterval = RAVENCOIN
+[2023-09-17T12:47:38.568Z] [debug] [ravencoin] [PaymentProcessor] : PP> Validating address and balance
+[2023-09-17T12:47:38.562Z] [info] [system] [Website] : Starting Website module
+[2023-09-17T12:47:38.577Z] [info] [system] [Website] : WEBSITE> Attempting to start Website on 0.0.0.0:5001
+[2023-09-17T12:47:38.565Z] [info] [system] [Stats] : Starting Stats Module...
+[2023-09-17T12:47:38.565Z] [debug] [system] [Stats] : Initializing Stats Redis...
+[2023-09-17T12:47:38.568Z] [debug] [system] [Stats] : Initializing Stats History...
+[2023-09-17T12:47:38.584Z] [debug] [system] [PaymentProcessing] : PP> Payment processor initialized. Setup results false
+[2023-09-17T12:47:38.583Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with payment processing daemon {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:47:38.583Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> There was error during payment processor setup true
+[2023-09-17T12:47:38.598Z] [info] [system] [Website] : WEBSITE> Website started on 0.0.0.0:5001
+[2023-09-17T12:48:36.607Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:49:34.643Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:50:04.611Z] [debug] [ravencoin] [ShareProcessor [:0]] : Share processing setup with redis (127.0.0.1:6379)
+[2023-09-17T12:50:04.614Z] [info] [ravencoin] [Pool [:1]] : Could not start pool, error with init batch RPC call: {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:50:04.872Z] [debug] [ravencoin] [ShareProcessor [:1]] : Share processing setup with redis (127.0.0.1:6379)
+[2023-09-17T12:50:04.875Z] [info] [ravencoin] [Pool [:2]] : Could not start pool, error with init batch RPC call: {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:50:05.127Z] [debug] [ravencoin] [ShareProcessor [:2]] : Share processing setup with redis (127.0.0.1:6379)
+[2023-09-17T12:50:05.130Z] [info] [ravencoin] [Pool [:3]] : Could not start pool, error with init batch RPC call: {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:50:05.377Z] [debug] [ravencoin] [ShareProcessor [:3]] : Share processing setup with redis (127.0.0.1:6379)
+[2023-09-17T12:50:05.380Z] [info] [ravencoin] [Pool [:4]] : Could not start pool, error with init batch RPC call: {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:50:05.406Z] [debug] [system] [init.js] : Master
+[2023-09-17T12:50:05.650Z] [debug] [ravencoin] [ShareProcessor [:4]] : Share processing setup with redis (127.0.0.1:6379)
+[2023-09-17T12:50:05.654Z] [info] [ravencoin] [Pool [:5]] : Could not start pool, error with init batch RPC call: {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:50:05.899Z] [debug] [ravencoin] [ShareProcessor [:5]] : Share processing setup with redis (127.0.0.1:6379)
+[2023-09-17T12:50:05.902Z] [info] [ravencoin] [Pool [:6]] : Could not start pool, error with init batch RPC call: {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:50:06.361Z] [info] [system] [PaymentProcessing] : PP> Payment processor worker started
+[2023-09-17T12:50:06.365Z] [info] [system] [PaymentProcessing] : PP> Enabled ravencoin for payment processing
+[2023-09-17T12:50:06.372Z] [debug] [ravencoin] [PaymentProcessor] : PP> FEE % = RAVENCOIN
+[2023-09-17T12:50:06.374Z] [debug] [ravencoin] [PaymentProcessor] : PP> minPayment = RAVENCOIN
+[2023-09-17T12:50:06.375Z] [debug] [ravencoin] [PaymentProcessor] : PP> paymentInterval = RAVENCOIN
+[2023-09-17T12:50:06.375Z] [debug] [ravencoin] [PaymentProcessor] : PP> Validating address and balance
+[2023-09-17T12:50:06.367Z] [info] [system] [Website] : Starting Website module
+[2023-09-17T12:50:06.383Z] [info] [system] [Website] : WEBSITE> Attempting to start Website on 0.0.0.0:5001
+[2023-09-17T12:50:06.370Z] [info] [system] [Stats] : Starting Stats Module...
+[2023-09-17T12:50:06.370Z] [debug] [system] [Stats] : Initializing Stats Redis...
+[2023-09-17T12:50:06.372Z] [debug] [system] [Stats] : Initializing Stats History...
+[2023-09-17T12:50:06.390Z] [debug] [system] [PaymentProcessing] : PP> Payment processor initialized. Setup results false
+[2023-09-17T12:50:06.390Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with payment processing daemon {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:50:06.390Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> There was error during payment processor setup true
+[2023-09-17T12:50:06.404Z] [info] [system] [Website] : WEBSITE> Website started on 0.0.0.0:5001
+[2023-09-17T12:51:04.420Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:52:02.463Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:53:00.513Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:53:58.561Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:54:56.565Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:55:54.618Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T12:56:52.663Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T13:02:23.510Z] [debug] [ravencoin] [ShareProcessor [:0]] : Share processing setup with redis (127.0.0.1:6379)
+[2023-09-17T13:02:23.513Z] [info] [ravencoin] [Pool [:1]] : Could not start pool, error with init batch RPC call: {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T13:02:23.772Z] [debug] [ravencoin] [ShareProcessor [:1]] : Share processing setup with redis (127.0.0.1:6379)
+[2023-09-17T13:02:23.775Z] [info] [ravencoin] [Pool [:2]] : Could not start pool, error with init batch RPC call: {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T13:02:24.017Z] [debug] [ravencoin] [ShareProcessor [:2]] : Share processing setup with redis (127.0.0.1:6379)
+[2023-09-17T13:02:24.020Z] [info] [ravencoin] [Pool [:3]] : Could not start pool, error with init batch RPC call: {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T13:02:24.265Z] [debug] [ravencoin] [ShareProcessor [:3]] : Share processing setup with redis (127.0.0.1:6379)
+[2023-09-17T13:02:24.268Z] [info] [ravencoin] [Pool [:4]] : Could not start pool, error with init batch RPC call: {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T13:02:24.296Z] [debug] [system] [init.js] : Master
+[2023-09-17T13:02:24.506Z] [debug] [ravencoin] [ShareProcessor [:4]] : Share processing setup with redis (127.0.0.1:6379)
+[2023-09-17T13:02:24.509Z] [info] [ravencoin] [Pool [:5]] : Could not start pool, error with init batch RPC call: {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T13:02:24.763Z] [debug] [ravencoin] [ShareProcessor [:5]] : Share processing setup with redis (127.0.0.1:6379)
+[2023-09-17T13:02:24.766Z] [info] [ravencoin] [Pool [:6]] : Could not start pool, error with init batch RPC call: {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T13:02:25.243Z] [info] [system] [PaymentProcessing] : PP> Payment processor worker started
+[2023-09-17T13:02:25.246Z] [info] [system] [PaymentProcessing] : PP> Enabled ravencoin for payment processing
+[2023-09-17T13:02:25.253Z] [debug] [ravencoin] [PaymentProcessor] : PP> FEE % = RAVENCOIN
+[2023-09-17T13:02:25.255Z] [debug] [ravencoin] [PaymentProcessor] : PP> minPayment = RAVENCOIN
+[2023-09-17T13:02:25.256Z] [debug] [ravencoin] [PaymentProcessor] : PP> paymentInterval = RAVENCOIN
+[2023-09-17T13:02:25.256Z] [debug] [ravencoin] [PaymentProcessor] : PP> Validating address and balance
+[2023-09-17T13:02:25.246Z] [info] [system] [Website] : Starting Website module
+[2023-09-17T13:02:25.264Z] [info] [system] [Website] : WEBSITE> Attempting to start Website on 0.0.0.0:5001
+[2023-09-17T13:02:25.250Z] [info] [system] [Stats] : Starting Stats Module...
+[2023-09-17T13:02:25.250Z] [debug] [system] [Stats] : Initializing Stats Redis...
+[2023-09-17T13:02:25.253Z] [debug] [system] [Stats] : Initializing Stats History...
+[2023-09-17T13:02:25.271Z] [debug] [system] [PaymentProcessing] : PP> Payment processor initialized. Setup results false
+[2023-09-17T13:02:25.270Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with payment processing daemon {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T13:02:25.271Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> There was error during payment processor setup true
+[2023-09-17T13:02:25.286Z] [info] [system] [Website] : WEBSITE> Website started on 0.0.0.0:5001
+[2023-09-17T13:03:23.287Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T13:04:21.338Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T13:05:19.376Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T13:06:17.422Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T13:07:15.469Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T13:08:13.503Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T13:09:11.535Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T13:10:09.572Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T13:11:07.607Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T13:12:05.651Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T13:13:03.709Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T13:14:01.767Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T13:14:59.812Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T13:15:57.870Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T13:16:55.890Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T13:17:53.906Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T13:18:51.955Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}
+[2023-09-17T13:19:49.956Z] [error] [ravencoin] [PaymentProcessor] : PP>ERROR> Error with RPC call getmininginfo {"type":"offline","message":"connect ECONNREFUSED 127.0.0.1:5010"}

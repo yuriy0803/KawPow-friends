@@ -1,0 +1,70 @@
+{
+  "poolname": "Ravencoin Pool",
+  "devmode": false,
+  "devmodePayMinimim": 0.25,
+  "devmodePayInterval": 120,
+  "logips": true,
+  "anonymizeips": true,
+  "ipv4bits": 16,
+  "ipv6bits": 16,
+  "defaultCoin": "ravencoin",
+  "poollogo": "/website/static/img/poollogo.png",
+  "discord": "Join our #mining channel on Discord: ",
+  "discordlink": "https://discord.com/invite/zdnuXm4uby",
+  "pagetitle": "Ravencoin Pool - 1.0 % Fees Promo - Run By Professionals",
+  "pageauthor": "KawPow-friends",
+  "pagedesc": "A reliable, low fee, easy to use mining pool for Ravencoin! Get started mining today!",
+  "pagekeywds": "GPU,CPU,Hash,Hashrate,Cryptocurrency,Crypto,Mining,Pool,Ravencoin,Easy,Simple,How,To",
+  "btcdonations": "",
+  "ltcdonations": "",
+  "rvndonations": "",
+  "logger": {
+    "level": "debug",
+    "file": "/home/yuriy/KawPow-friends/logs/pool_debug.log"
+  },
+  "cliHost": "127.0.0.1",
+  "cliPort": 17117,
+  "clustering": {
+    "enabled": true,
+    "forks": "auto"
+  },
+  "defaultPoolConfigs": {
+    "blockRefreshInterval": 333,
+    "jobRebroadcastTimeout": 19,
+    "connectionTimeout": 600,
+    "emitInvalidBlockHashes": false,
+    "validateWorkerUsername": false,
+    "tcpProxyProtocol": false,
+    "banning": {
+      "enabled": true,
+      "time": 600,
+      "invalidPercent": 50,
+      "checkThreshold": 500,
+      "purgeInterval": 300
+    },
+    "redis": {
+      "host": "127.0.0.1",
+      "port": 6379
+    }
+  },
+  "website": {
+    "enabled": true,
+    "sslenabled": false,
+    "sslforced": false,
+    "host": "0.0.0.0",
+    "port": 5001,
+    "sslport": 443,
+    "sslkey": "/home/pool/KawPow-friends/certs/privkey.pem",
+    "sslcert": "/home/pool/KawPow-friends/certs/fullchain.pem",
+    "stratumHost": "rav.yu-tam.contact",
+    "stats": {
+      "updateInterval": 300,
+      "historicalRetention": 43200,
+      "hashrateWindow": 300
+    }
+  },
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6379
+  }
+}
